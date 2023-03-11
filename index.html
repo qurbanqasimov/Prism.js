@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+
+    <section>
+        <div class="umumi">
+        <div class="nav">
+            <h1>Prism.js</h2>
+              <a href="https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript">  Download</a>  
+        </div>
+           
+        <div class="center">
+            <h1>Syntax Highlighter for Every Language</h1>
+            <p class="par">Prism is a lightweight, extensible syntax highlighter, built with modern web
+                standards in mind. It’s used in thousands of websites, including some of those you visit daily.</p>
+                <a href="https://github.com/qurbanqasimov?tab=overview&from=2023-01-01&to=2023-01-13"> <i class="fa-brands fa-github"></i></i> Contribute</a>
+        </div>
+
+        <div class="container">
+            
+            <div class="row">
+
+              <div class="card-03">
+                <img src="Screenshot 2023-01-11 062052.png" alt="">
+
+                <p> <span style="margin:0 20px ; color: darkgrey;">1</span>  <span class="im">import</span> {DomSanitizer} <span class="im">from</span> <span class="an">'@angular/platform-browser';</span></p>
+                <p> <span style="margin:0 20px; color: darkgrey ;">2</span>  <span class="im">import</span> {Pipe, PipeTransform}  <span class="im">from</span> <span class="an">'@angular/core';</span></p>
+ 
+                <p> <span style="margin:0 20px; color: darkgrey;">3</span>  </p>
+                <p> <span style="margin:0 20px; color: darkgrey ;">4</span>  <span class="im">import</span> {icons}  <span class="im">from</span> <span class="an">'feather-icons';</span> // v4+</p>
+
+                <p><span style="margin:0 20px; color: darkgrey;">5</span></p>
+                
+                <p><span style="margin:0 20px; color: darkgrey;">6</span> <span class="re">@Pipe ({ name: '<span class="an">feather</span> }) </span></p>
+                <p><span style="margin:0 20px; color: darkgrey;">7</span> <span class="im">export class</span> <span class="re">FeatherIconsPipe</span> <span class="im">implements </span> <span class="re">PipeTransform </span> } </p>
+
+                <p><span style="margin:0 20px; color: darkgrey;">8</span> </p>
+
+                <p> <span style="margin:0 20px; color: darkgrey;">9</span> <span class="re">constructor</span>(<span class="im">private</span> sanitizer: DomSanitizer) {}
+                </p>
+
+                <p><span style="margin:0 20px; color: darkgrey;">10</span> </p>
+
+                <p> <span style="margin:0 20px; color: darkgrey;">11</span>  <span class="im">transform</span>(icon: string, size: number = <span class="im">24</span>, color: string = ' <span class="an">inherit</span> ') {
+                </p>
+                <p><span style="margin:0 20px; color: darkgrey;">12</span></p>
+           
+                <p><span style="margin:0 20px; color: darkgrey;">13</span >  <span class="im">return this</span> .sanitizer. <span class="re">bypassSecurityTrustHtml</span> (icons[icon]. <span class="re">toSvg</span>({ </p>
+            
+                    <p> <span style="margin:0 20px; color: darkgrey;">14</span > <span style="margin-left: 35px;"> width: size,</span></p>
+                    <p> <span style="margin:0 20px; color: darkgrey;">15</span > <span style="margin-left: 35px;">       height: size,</span></p>
+                    <p> <span style="margin:0 20px; color: darkgrey;">16</span > <span style="margin-left: 35px;">         color: color
+                    </span></p>
+                    <p> <span style="margin:0 20px; color: darkgrey;">17</span > <span style="margin-left: 30px;">      }));</span></p>
+                    <p> <span style="margin:0 20px; color: darkgrey;">18</span > <span style="margin-left: 20px;">  }</span></p>
+                    <p> <span style="margin:0 20px; color: darkgrey;">19</span > <span style="margin-left: 7px;">      }</span></p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+  <div class="contaier">
+ 
+    <h1>Reasons Why People Love Prism.js</h1>
+    <div class="boxs">
+
+        <div class="box">
+            <img src="./Screenshot 2023-03-08 103841.png" alt="">
+            <h4>Dead simple</h4>
+        </div>
+        <div class="box">
+            <img src="./Screenshot 2023-03-08 103841.png" alt="">
+            <h4>Dead simple</h4>
+        </div>
+        <div class="box">
+            <img src="./Screenshot 2023-03-08 103841.png" alt="">
+            <h4>Dead simple</h4>
+        </div>
+        <div class="box">
+            <img src="./Screenshot 2023-03-08 103841.png" alt="">
+            <h4>Dead simple</h4>
+        </div>
+        <div class="box">
+            <img src="./Screenshot 2023-03-08 103841.png" alt="">
+            <h4>Dead simple</h4>
+        </div>
+        <div class="box">
+            <img src="./Screenshot 2023-03-08 103841.png" alt="">
+            <h4>Dead simple</h4>
+        </div>
+    </div>
+    <h1>Used by Thousands of Companies</h1>
+    <h1>Prism.js is used on several websites, small and large.</h2>
+        <div class="imgs">
+            <img src="https://logo.clearbit.com/google.com?size=60" alt="">
+            <img src="https://logo.clearbit.com/twitter.com?size=60" alt="Twitter">
+            <img src="https://logo.clearbit.com/vuejs.org?size=60" alt="Veu.js">
+            <img src="https://logo.clearbit.com/stripe.com?size=60" alt="Stripe">
+
+        </div>
+  </div>
+
+  <footer>
+    <div class="div">
+        <h4>Test Drive</h4>
+        <h4>API Docs</h4>
+        <h4>Fork Prism.js on GitHub</h4>
+    </div>
+    <h3 style="text-align: center;">© 2019 Prism - All Rights Reserved</h3>
+  </footer>
+
+
+    
+</body>
+</html>
